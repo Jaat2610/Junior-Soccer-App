@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Player Management</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h2>Player Management</h2>
+  <form id="playerForm">
+    <input type="text" placeholder="Full Name" id="name" required />
+    <input type="number" placeholder="Age" id="age" required />
+    <input type="number" placeholder="Jersey #" id="jersey" required />
+    <input type="text" placeholder="Position" id="position" required />
+    <button type="submit">Add Player</button>
+  </form>
+
+  <h3>Player List:</h3>
+  <ul id="playerList"></ul>
+
+  <script src="app.js"></script>
+</body>
+</html>
